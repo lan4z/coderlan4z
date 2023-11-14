@@ -1,0 +1,423 @@
+:root {
+    --font-header: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#root {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: #1717175c;
+    background-image: radial-gradient(#ffffff75 0.6px, #171717b6 0.6px);
+    background-size: 28px 28px;
+    overflow-x: hidden;
+}
+
+.page {
+    height: 100%;
+    width: 100%;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+header {
+    padding: 22px 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: "email . info";
+    width: 70vw;
+    height: 40px;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: .5px solid #7c7c7c36;
+}
+
+header a {
+    font-family: var(--font-header);
+    color: #7c7c7c;
+    font-size: .8rem;
+}
+
+header .barra {
+    padding: 0 12px;
+    color: #7c7c7c;
+}
+
+.envelope {
+    border: solid .5px #7c7c7c36;
+    color: #7c7c7c;
+    border-radius: 100%;
+    padding: .77rem .8rem .8rem .8rem;
+    display: inline-flex;
+    align-items: center;
+    font-size: .8rem;
+    margin-right: 1rem;
+    background-color: #1f1f1f;
+}
+
+.email {
+    grid-area: email;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.info {
+    grid-area: info;
+    justify-self: end;
+}
+
+main {
+    text-align: center;
+}
+
+.prof {
+    display: flex;
+    width: 50vw;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+    color: #a2a2a2;
+}
+
+.profile p {
+    font-size: 1rem;
+}
+
+
+:root {
+    --font-header: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#root {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: #171717;
+    background-image: radial-gradient(#ffffff75 0.6px, #171717 0.6px);
+    background-size: 28px 28px;
+    overflow-x: hidden;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    padding: 22px 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: "email . info";
+    width: 70vw;
+    height: 40px;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: .5px solid #7c7c7c36;
+}
+
+header a {
+    font-family: var(--font-header);
+    color: #7c7c7c;
+    font-size: .8rem;
+}
+
+header .barra {
+    padding: 0 12px;
+    color: #7c7c7c;
+}
+
+.envelope {
+    border: solid .5px #7c7c7c36;
+    color: #7c7c7c;
+    border-radius: 100%;
+    padding: .77rem .8rem .8rem .8rem;
+    display: inline-flex;
+    align-items: center;
+    font-size: .8rem;
+    margin-right: 1rem;
+    background-color: #1f1f1f;
+}
+
+.email {
+    grid-area: email;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.info {
+    grid-area: info;
+    justify-self: end;
+}
+
+main {
+    text-align: center;
+}
+
+.prof {
+    width: 100%;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+    color: #a2a2a2;
+}
+
+.profile img {
+    margin-top: 5rem;
+    width: 20%;
+    border: 1px solid #1f1f1f;
+    border-radius: 50%;
+}
+
+.profile p {
+    font-size: 1rem;
+}
+
+.profile h1 {
+    padding: 0 20%;
+    font-size: 3rem;
+    font-weight: 450;
+    background-image: linear-gradient(to right, #ffffff, #161616);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+button {
+    color: #a2a2a2;
+    margin: 25px;
+    background-color: #1f1f1f;
+}
+
+.carrousel {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.h2 {
+    line-height: 1.1;
+    padding: 5rem 35% 2rem;
+    max-width: 100%;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: 100;
+    background-image: linear-gradient(to right, #ffffff, #161616);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.h2 h2 {
+    font-size: 2.3rem;
+}
+
+.cards {
+    text-align: start;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+    padding: 1rem 13rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    @media (max-width: 1000px) {
+        overflow-x: scroll;
+    }
+}
+
+.card1,
+.card2,
+.card3,
+.card4 {
+    min-width: 8.2rem;
+    max-width: 8.2rem;
+    min-height: 13rem;
+    margin: 5px;
+    padding: 1.5rem 2rem;
+    color: #7c7c7c;
+    background-color: #1f1f1f;
+    border: 1px solid #7c7c7c13;
+    border-radius: 5px;
+}
+
+.next {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+
+.next-content {
+    margin-top: 20px;
+}
+
+.next h2 {
+    font-size: 2rem;
+    font-weight: 450;
+    background-image: linear-gradient(to right, #ffffff, #161616);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.next button {
+    color: #a2a2a2;
+    margin: 25px;
+    margin-bottom: 4rem;
+}
+
+.next {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+
+.next-content {
+    margin-top: 20px;
+}
+
+.next h1 {
+    font-size: 3vw;
+    font-weight: 450;
+    background-image: linear-gradient(to right, #ffffff, #161616);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+
+.marcas {
+    color: white;
+    margin: 2rem 0;
+    box-sizing: border-box;
+    background-color: #1f1f1f;
+    border: 1px solid #7c7c7c13;
+    text-align: center;
+    font-size: 6rem;
+    padding: 4rem 3rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    @media (max-width: 1460px) {
+        overflow-x: scroll;
+    }
+}
+
+.row path,
+.row svg {
+    margin: 0 4rem;
+}
+
+.row {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    @media (min-width: 1460px) {
+        flex: 1;
+    }
+
+    @media (max-width: 1460px) {
+        flex: 0 0 100%;
+    }
+}
+
+.row2 {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    @media (min-width: 1000px) {
+        flex: 1;
+    }
+
+    @media (max-width: 1000px) {
+        flex: 100%;
+    }
+}
+
+.card1 h1,
+.card2 h1,
+.card3 h1,
+.card4 h1 {
+    font-size: large;
+    padding: 0;
+    margin: 0;
+    color: #7c7c7c;
+}
+
+.card1 p,
+.card2 p,
+.card3 p,
+.card4 p {
+    margin: 1rem 0 0 0;
+    font-size: small;
+}
+
+.cards a {
+    color: #7c7c7c;
+}
+
+@media (max-width:1000px) {
+    header {
+        display: none;
+    }
+
+    .cards {
+        justify-content: start;
+        padding: 1rem 5px;
+    }
+
+    .profile h1 {
+        font-size: 2.2rem;
+        padding: 2rem 15%;
+    }
+
+    .profile img {
+        width: 30%;
+    }
+
+    .h2 h2 {
+        font-size: 1.3rem;
+    }
+
+    .h2 {
+        padding: 2.5rem 20% 1rem;
+    }
+
+    .marcas {
+
+        padding: 3rem 0;
+    }
+
+    .next h2 {
+        padding: 0 20%;
+        font-size: 1.2rem;
+    }
+
+    .car1,
+    .car2,
+    .car3,
+    .car4 {
+        padding: 2rem 3rem;
+    }
+}
