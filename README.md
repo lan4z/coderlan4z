@@ -15,7 +15,7 @@ Inclua uma captura de tela ou GIF animado que destaque os principais aspectos da
 
 ## Instruções de Uso
 
-1. Clone este repositório: `git clone https://github.com/lan4z/coderlan4z/.git`
+1. Clone este repositório: `git clone https://github.com/lan4z/coderlan4z.git`
 2. Navegue até o diretório do projeto: `cd coderlan4z`
 3. Instale as dependências: `npm install`
 4. Inicie a aplicação: `npm start`
@@ -31,9 +31,9 @@ Você pode personalizar esta landing page de acordo com suas preferências:
 - **Estilizando:**
   Personalize o estilo da sua landing page no diretório `src/assets/css`. Faça ajustes nas cores, fontes e layout conforme desejado.
 
-## Licença
+## Permissão de Uso
 
-Este projeto é licenciado sob a [Licença MIT](LICENSE). Consulte o arquivo [LICENSE](LICENSE) para obter detalhes.
+Você tem permissão para utilizar, modificar e distribuir este código, desde que atribua os devidos créditos ao autor original, Guilherme Lana.
 
 ## Contato
 
