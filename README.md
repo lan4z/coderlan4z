@@ -1,4 +1,4 @@
-# Landing Page em React - [Seu Nome]
+# Landing Page em React - Guilherme Lana
 
 Bem-vindo à minha Landing Page em React! Este repositório contém os arquivos e código-fonte para a minha página inicial online, desenvolvida utilizando React para uma experiência mais dinâmica e interativa.
 
