@@ -1,6 +1,6 @@
 import React from "react";
 import '../css/landing.css';
-import perfilImage from '../img/profile.jpeg';
+import perfilImage from '../img/profile.jpg';
 import { FaRegEnvelope} from "react-icons/fa";
 import { CgCPlusPlus } from "react-icons/cg";
 import { DiGit, DiReact, DiNodejsSmall, DiJava, DiJavascript1 } from "react-icons/di";
